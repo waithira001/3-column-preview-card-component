@@ -1,0 +1,89 @@
+:root {
+    --color-card-orange: hsl(31, 77%, 52%);
+    --color-card-cyan: hsl(184, 100%, 22%);
+    --color-card-dark-cyan: hsl(179, 100%, 13%);
+    --color-white-transparent75: hsla(0, 0%, 100%, 0.75);
+    --color-light-gray: hsl(0, 0%, 95%);
+  }
+
+ @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+/* font-family: 'Big Shoulders Display', cursive; */
+/* font-family: 'Lexend Deca', sans-serif; */
+  
+
+
+@media only screen and (min-width: 768px) {
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .wrapper {
+        margin: 2rem .5rem;
+    }
+}
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+  }
+  
+  img {
+    width: 90px;
+  }
+  div.Sedan {
+    background-color:hsl(31, 77%, 52%); ;
+  }
+
+body,
+button {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.btn {
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+  div.SUV {
+    background-color: hsl(184, 100%, 22%);
+}
+
+  div.Luxury {
+    background-color: hsl(179, 100%, 13%);
+
+  }
+  .container{
+    display: grid;
+	grid-template-columns: 300px 300px 300px;
+	text-align: center;
+    margin: 0 auto;
+  }
+
+  h1 {
+      text-transform: uppercase;
+      color:hsl(0, 0%, 95%);
+      font-size: 31px;
+  }
+
+  p {
+    text-transform: none;
+    color:hsl(0, 0%, 95%);
+    font-size: 15px;
+
+  }
+ 
+  
